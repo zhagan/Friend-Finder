@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NA-Dev/Friend-Finder-Heroku-App.git"
+    "url": "git+https://github.com/zhagan/Friend-Finder.git"
   },
-  "author": "Nikki Aaron",
+  "author": "Zack Hagan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NA-Dev/Friend-Finder-Heroku-App/issues"
+    "url": "https://github.com/zhagan/Friend-Finder.git/issues"
   },
-  "homepage": "https://github.com/NA-Dev/Friend-Finder-Heroku-App#readme",
+  "homepage": "https://github.com/zhagan/Friend-Finder.git#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

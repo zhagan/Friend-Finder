@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Matchmaker Survey</title>
-  
+
   <!-- Reset and Bootstrap Stylesheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-  
+
   <!-- Chosen CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.3/chosen.min.css">
 </head>
@@ -23,7 +23,7 @@
       <h2 class="card-title">Survey Questions</h2>
       <hr>
 
-    
+
       <label for="name">Name (Required)</label>
       <input type="text" id="name" class="form-control" placeholder="John Doe" required>
       <br>
@@ -72,7 +72,7 @@
         <option value="5">Animals are better than humans</option>
       </select>
       <br><br>
-      
+
       <h4><strong>Question 3</strong></h4>
       <label>The bartender asks, "What can I get you?"</label>
       <select class="chosen-select" id="q3">
@@ -84,7 +84,7 @@
         <option value="5">I'll take a shot, a mixed chaser, and keep 'em coming!</option>
       </select>
       <br><br>
-      
+
       <h4><strong>Question 4</strong></h4>
       <label>What best describes your fashion strategy?</label>
       <select class="chosen-select" id="q4">
@@ -96,7 +96,7 @@
         <option value="5">I always look sharp, and my date should too</option>
       </select>
       <br><br>
-      
+
       <h4><strong>Question 5</strong></h4>
       <label>What's for dinner most nights?</label>
       <select class="chosen-select" id="q5">
@@ -108,7 +108,7 @@
         <option value="5">I adhere to a strict diet (i.e. vegan, Adkins, paleo, gluten-free, etc.)</option>
       </select>
       <br><br>
-      
+
       <h4><strong>Question 6</strong></h4>
       <label>What are your relationship goals?</label>
       <select class="chosen-select" id="q6">
@@ -120,7 +120,7 @@
         <option value="5">You like me right, let's elope tonight!</option>
       </select>
       <br><br>
-      
+
       <h4><strong>Question 7</strong></h4>
       <label>How do you handle yourself during relationship conflicts?</label>
       <select class="chosen-select" id="q7">
@@ -156,7 +156,7 @@
         <option value="5">I am a devout believer, and have many spiritual practices</option>
       </select>
       <br><br>
-      
+
       <h4><strong>Question 10</strong></h4>
       <label>What kind of news do you read / watch?</label>
       <select class="chosen-select" id="q10">
@@ -168,7 +168,7 @@
         <option value="5">Fox, Breitbart, Glenn Beck, Rush Limbaugh, or Drudge Report</option>
       </select>
       <br><br>
-  
+
       <!-- Submit Button -->
       <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
         <i class="glyphicon glyphicon-check"></i>
@@ -176,17 +176,7 @@
     </div>
 
     <hr>
-    <footer class="footer">
-      <p>
-        <a href="/api/people">
-          API Celebrity List
-        </a>
-        | 
-        <a href="https://github.com/NA-Dev/Friend-Finder-Heroku-App">
-          Github Repo
-        </a>
-      </p>
-    </footer>
+    
   </div>
 
   <!-- Modal -->
@@ -198,8 +188,8 @@
             <h4 class="modal-title"><strong>You Are Most Compatible With...</strong></h4>
           </div>
           <div class="modal-body">
-            <img id="match-img" 
-            src="https://vignette.wikia.nocookie.net/community-sitcom/images/b/bd/Photo-Unavailable.jpg" 
+            <img id="match-img"
+            src="https://vignette.wikia.nocookie.net/community-sitcom/images/b/bd/Photo-Unavailable.jpg"
             alt="Match Image" style="width: 80%">
             <h3 id="match-name"></h3>
           </div>
@@ -207,26 +197,26 @@
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
-  
+
       </div>
     </div>
-  
+
 
   <!-- Bootstrap and JQuery-->
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script 
-  src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" 
-  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" 
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
   crossorigin="anonymous">
   </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" 
-  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
   crossorigin="anonymous">
   </script>
-  
+
   <!-- JQuery Chosen -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.3/chosen.jquery.js"></script>
 
